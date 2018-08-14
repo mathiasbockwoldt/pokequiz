@@ -622,6 +622,11 @@ function preload(img)
 
 }
 
+function enterhandler(e)
+{
+	e.preventDefault();
+}
+
 function newimage()
 {
 	if(todo.length === 0)
@@ -703,6 +708,7 @@ function giveup()
 	stopquiz(found.length.toString() + '/' + total);
 }
 
+document.getElementById('entryform').onsubmit = enterhandler;
 document.getElementById('quizentry').onkeyup = checkanswer;
 document.getElementById('giveup').onclick = giveup;
 window.onload = startquiz;
