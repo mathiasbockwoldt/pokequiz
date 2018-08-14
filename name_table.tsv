@@ -1,0 +1,152 @@
+ 		German	English 	French	Japanese	Korean	Chinese (T / V) 	Type
+1	Pokémonicon 001.png 	Bisasam 	Bulbasaur 	Bulbizarre 	フシギダネ 	이상해씨 	妙蛙種子 / 妙蛙种子 	plant poison
+2	Pokémonicon 002.png 	Bisaknosp 	Ivysaur 	Herbizarre 	フシギソウ 	이상해풀 	妙蛙草 / 妙蛙草 	plant poison
+3	Pokémonicon 003.png 	Bisaflor 	Venusaur 	Florizarre 	フシギバナ 	이상해꽃 	妙蛙花 / 妙蛙花 	plant poison
+4	Pokémonicon 004.png 	Glumanda 	Charmander 	Salameche 	ヒトカゲ 	파이리 	小火龍 / 小火龙 	fire
+5	Pokémonicon 005.png 	Glutexo 	Charmeleon 	Reptincel 	リザード 	리자드 	火恐龍 / 火恐龙 	fire
+6	Pokémonicon 006.png 	Glurak 	Charizard 	Dracaufeu 	リザードン 	리자몽 	噴火龍 / 喷火龙 	fire flying
+7	Pokémonicon 007.png 	Schiggy 	Squirtle 	Carapuce 	ゼニガメ 	꼬부기 	傑尼龜 / 杰尼龟 	water
+8	Pokémonicon 008.png 	Schillok 	Wartortle 	Carabaffe 	カメール 	어니부기 	卡咪龜 / 卡咪龟 	water
+9	Pokémonicon 009.png 	Turtok 	Blastoise 	Tortank 	カメックス 	거북왕 	水箭龜 / 水箭龟 	water
+10	Pokémonicon 010.png 	Raupy 	Caterpie 	Chenipan 	キャタピー 	캐터피 	綠毛蟲 / 绿毛虫 	bug
+11	Pokémonicon 011.png 	Safcon 	Metapod 	Chrysacier 	トランセル 	단데기 	鐵甲蛹 / 铁甲蛹 	bug
+12	Pokémonicon 012.png 	Smettbo 	Butterfree 	Papilusion 	バタフリー 	버터플 	巴大蝶 / 巴大蝶 	bug flying
+13	Pokémonicon 013.png 	Hornliu 	Weedle 	Aspicot 	ビードル 	뿔충이 	獨角蟲 / 独角虫 	bug poison
+14	Pokémonicon 014.png 	Kokuna 	Kakuna 	Coconfort 	コクーン 	딱충이 	鐵殼蛹 / 铁壳蛹 	bug poison
+15	Pokémonicon 015.png 	Bibor 	Beedrill 	Dardagnan 	スピアー 	독침붕 	大針蜂 / 大针蜂 	bug poison
+16	Pokémonicon 016.png 	Taubsi 	Pidgey 	Roucool 	ポッポ 	구구 	波波 / 波波 	normal flying
+17	Pokémonicon 017.png 	Tauboga 	Pidgeotto 	Roucoups 	ピジョン 	피죤 	比比鳥 / 比比鸟 	normal flying
+18	Pokémonicon 018.png 	Tauboss 	Pidgeot 	Roucarnage 	ピジョット 	피죤투 	大比鳥 / 大比鸟 	normal flying
+19	Pokémonicon 019.png 	Rattfratz 	Rattata 	Rattata 	コラッタ 	꼬렛 	小拉達 / 小拉达 	normal
+20	Pokémonicon 020.png 	Rattikarl 	Raticate 	Rattatac 	ラッタ 	레트라 	拉達 / 拉达 	normal
+21	Pokémonicon 021.png 	Habitak 	Spearow 	Piafabec 	オニスズメ 	깨비참 	烈雀 / 烈雀 	normal flying
+22	Pokémonicon 022.png 	Ibitak 	Fearow 	Rapasdepic 	オニドリル 	깨비드릴조 	大嘴雀 / 大嘴雀 	normal flying
+23	Pokémonicon 023.png 	Rettan 	Ekans 	Abo 	アーボ 	아보 	阿柏蛇 / 阿柏蛇 	poison
+24	Pokémonicon 024.png 	Arbok 	Arbok 	Arbok 	アーボック 	아보크 	阿柏怪 / 阿柏怪 	poison
+25	Pokémonicon 025.png 	Pikachu 	Pikachu 	Pikachu 	ピカチュウ 	피카츄 	皮卡丘 / 皮卡丘 	electric
+26	Pokémonicon 026.png 	Raichu 	Raichu 	Raichu 	ライチュウ 	라이츄 	雷丘 / 雷丘 	electric
+27	Pokémonicon 027.png 	Sandan 	Sandshrew 	Sabelette 	サンド 	모래두지 	穿山鼠 / 穿山鼠 	ground
+28	Pokémonicon 028.png 	Sandamer 	Sandslash 	Sablaireau 	サンドパン 	고지 	穿山王 / 穿山王 	ground
+29	Pokémonicon 029.png 	Nidoran♀ 	Nidoran♀ 	Nidoran♀ 	ニドラン♀ 	니드런♀ 	尼多蘭 / 尼多兰 	poison
+30	Pokémonicon 030.png 	Nidorina 	Nidorina 	Nidorina 	ニドリーナ 	니드리나 	尼多娜 / 尼多娜 	poison
+31	Pokémonicon 031.png 	Nidoqueen 	Nidoqueen 	Nidoqueen 	ニドクイン 	니드퀸 	尼多后 / 尼多后 	poison ground
+32	Pokémonicon 032.png 	Nidoran♂ 	Nidoran♂ 	Nidoran♂ 	ニドラン♂ 	니드런♂ 	尼多朗 / 尼多朗 	poison
+33	Pokémonicon 033.png 	Nidorino 	Nidorino 	Nidorino 	ニドリーノ 	니드리노 	尼多力諾 / 尼多力诺 	poison
+34	Pokémonicon 034.png 	Nidoking 	Nidoking 	Nidoking 	ニドキング 	니드킹 	尼多王 / 尼多王 	poison ground
+35	Pokémonicon 035.png 	Piepi 	Clefairy 	Melofee 	ピッピ 	삐삐 	皮皮 / 皮皮 	fairy
+36	Pokémonicon 036.png 	Pixi 	Clefable 	Melodelfe 	ピクシー 	픽시 	皮可西 / 皮可西 	fairy
+37	Pokémonicon 037.png 	Vulpix 	Vulpix 	Goupix 	ロコン 	식스테일 	六尾 / 六尾 	fire
+38	Pokémonicon 038.png 	Vulnona 	Ninetales 	Feunard 	キュウコン 	나인테일 	九尾 / 九尾 	fire
+39	Pokémonicon 039.png 	Pummeluff 	Jigglypuff 	Rondoudou 	プリン 	푸린 	胖丁 / 胖丁 	normal fairy
+40	Pokémonicon 040.png 	Knuddeluff 	Wigglytuff 	Grodoudou 	プクリン 	푸크린 	胖可丁 / 胖可丁 	normal fairy
+41	Pokémonicon 041.png 	Zubat 	Zubat 	Nosferapti 	ズバット 	주뱃 	超音蝠 / 超音蝠 	poison flying
+42	Pokémonicon 042.png 	Golbat 	Golbat 	Nosferalto 	ゴルバット 	골뱃 	大嘴蝠 / 大嘴蝠 	poison flying
+43	Pokémonicon 043.png 	Myrapla 	Oddish 	Mystherbe 	ナゾノクサ 	뚜벅쵸 	走路草 / 走路草 	plant poison
+44	Pokémonicon 044.png 	Duflor 	Gloom 	Ortide 	クサイハナ 	냄새꼬 	臭臭花 / 臭臭花 	plant poison
+45	Pokémonicon 045.png 	Giflor 	Vileplume 	Rafflesia 	ラフレシア 	라플레시아 	霸王花 / 霸王花 	plant poison
+46	Pokémonicon 046.png 	Paras 	Paras 	Paras 	パラス 	파라스 	派拉斯 / 派拉斯 	bug plant
+47	Pokémonicon 047.png 	Parasek 	Parasect 	Parasect 	パラセクト 	파라섹트 	派拉斯特 / 派拉斯特 	bug plant
+48	Pokémonicon 048.png 	Bluzuk 	Venonat 	Mimitoss 	コンパン 	콘팡 	毛球 / 毛球 	bug poison
+49	Pokémonicon 049.png 	Omot 	Venomoth 	Aeromite 	モルフォン 	도나리 	摩魯蛾 / 摩鲁蛾 	bug poison
+50	Pokémonicon 050.png 	Digda 	Diglett 	Taupiqueur 	ディグダ 	디그다 	地鼠 / 地鼠 	ground
+51	Pokémonicon 051.png 	Digdri 	Dugtrio 	Triopiqueur 	ダグトリオ 	닥트리오 	三地鼠 / 三地鼠 	ground
+52	Pokémonicon 052.png 	Mauzi 	Meowth 	Miaouss 	ニャース 	나옹 	喵喵 / 喵喵 	normal
+53	Pokémonicon 053.png 	Snobilikat 	Persian 	Persian 	ペルシアン 	페르시온 	貓老大 / 猫老大 	normal
+54	Pokémonicon 054.png 	Enton 	Psyduck 	Psykokwak 	コダック 	고라파덕 	可達鴨 / 可达鸭 	water
+55	Pokémonicon 055.png 	Entoron 	Golduck 	Akwakwak 	ゴルダック 	골덕 	哥達鴨 / 哥达鸭 	water
+56	Pokémonicon 056.png 	Menki 	Mankey 	Ferosinge 	マンキー 	망키 	猴怪 / 猴怪 	fighting
+57	Pokémonicon 057.png 	Rasaff 	Primeape 	Colossinge 	オコリザル 	성원숭 	火爆猴 / 火爆猴 	fighting
+58	Pokémonicon 058.png 	Fukano 	Growlithe 	Caninos 	ガーディ 	가디 	卡蒂狗 / 卡蒂狗 	fire
+59	Pokémonicon 059.png 	Arkani 	Arcanine 	Arcanin 	ウインディ 	윈디 	風速狗 / 风速狗 	fire
+60	Pokémonicon 060.png 	Quapsel 	Poliwag 	Ptitart 	ニョロモ 	발챙이 	蚊香蝌蚪 / 蚊香蝌蚪 	water
+61	Pokémonicon 061.png 	Quaputzi 	Poliwhirl 	Tetarte 	ニョロゾ 	슈륙챙이 	蚊香君 / 蚊香君 	water
+62	Pokémonicon 062.png 	Quappo 	Poliwrath 	Tartard 	ニョロボン 	강챙이 	蚊香泳士 / 蚊香泳士 	water fighting
+63	Pokémonicon 063.png 	Abra 	Abra 	Abra 	ケーシィ 	캐이시 	凱西 / 凯西 	psychic
+64	Pokémonicon 064.png 	Kadabra 	Kadabra 	Kadabra 	ユンゲラー 	윤겔라 	勇基拉 / 勇基拉 	psychic
+65	Pokémonicon 065.png 	Simsala 	Alakazam 	Alakazam 	フーディン 	후딘 	胡地 / 胡地 	psychic
+66	Pokémonicon 066.png 	Machollo 	Machop 	Machoc 	ワンリキー 	알통몬 	腕力 / 腕力 	fighting
+67	Pokémonicon 067.png 	Maschock 	Machoke 	Machopeur 	ゴーリキー 	근육몬 	豪力 / 豪力 	fighting
+68	Pokémonicon 068.png 	Machomei 	Machamp 	Mackogneur 	カイリキー 	괴력몬 	怪力 / 怪力 	fighting
+69	Pokémonicon 069.png 	Knofensa 	Bellsprout 	Chetiflor 	マダツボミ 	모다피 	喇叭芽 / 喇叭芽 	plant poison
+70	Pokémonicon 070.png 	Ultrigaria 	Weepinbell 	Boustiflor 	ウツドン 	우츠동 	口呆花 / 口呆花 	plant poison
+71	Pokémonicon 071.png 	Sarzenia 	Victreebel 	Empiflor 	ウツボット 	우츠보트 	大食花 / 大食花 	plant poison
+72	Pokémonicon 072.png 	Tentacha 	Tentacool 	Tentacool 	メノクラゲ 	왕눈해 	瑪瑙水母 / 玛瑙水母 	water poison
+73	Pokémonicon 073.png 	Tentoxa 	Tentacruel 	Tentacruel 	ドククラゲ 	독파리 	毒刺水母 / 毒刺水母 	water poison
+74	Pokémonicon 074.png 	Kleinstein 	Geodude 	Racaillou 	イシツブテ 	꼬마돌 	小拳石 / 小拳石 	rock ground
+75	Pokémonicon 075.png 	Georok 	Graveler 	Gravalanch 	ゴローン 	데구리 	隆隆石 / 隆隆石 	rock ground
+76	Pokémonicon 076.png 	Geowaz 	Golem 	Grolem 	ゴローニャ 	딱구리 	隆隆岩 / 隆隆岩 	rock ground
+77	Pokémonicon 077.png 	Ponita 	Ponyta 	Ponyta 	ポニータ 	포니타 	小火馬 / 小火马 	fire
+78	Pokémonicon 078.png 	Gallopa 	Rapidash 	Galopa 	ギャロップ 	날쌩마 	烈焰馬 / 烈焰马 	fire
+79	Pokémonicon 079.png 	Flegmon 	Slowpoke 	Ramoloss 	ヤドン 	야돈 	呆呆獸 / 呆呆兽 	water psychic
+80	Pokémonicon 080.png 	Lahmus 	Slowbro 	Flagadoss 	ヤドラン 	야도란 	呆殼獸 / 呆壳兽 	water psychic
+81	Pokémonicon 081.png 	Magnetilo 	Magnemite 	Magneti 	コイル 	코일 	小磁怪 / 小磁怪 	electric steel
+82	Pokémonicon 082.png 	Magneton 	Magneton 	Magneton 	レアコイル 	레어코일 	三合一磁怪 / 三合一磁怪 	electric steel
+83	Pokémonicon 083.png 	Porenta 	Farfetch’d 	Canarticho 	カモネギ 	파오리 	大蔥鴨 / 大葱鸭 	normal flying
+84	Pokémonicon 084.png 	Dodu 	Doduo 	Doduo 	ドードー 	두두 	嘟嘟 / 嘟嘟 	normal flying
+85	Pokémonicon 085.png 	Dodri 	Dodrio 	Dodrio 	ドードリオ 	두트리오 	嘟嘟利 / 嘟嘟利 	normal flying
+86	Pokémonicon 086.png 	Jurob 	Seel 	Otaria 	パウワウ 	쥬쥬 	小海獅 / 小海狮 	water
+87	Pokémonicon 087.png 	Jugong 	Dewgong 	Lamantine 	ジュゴン 	쥬레곤 	白海獅 / 白海狮 	water ice
+88	Pokémonicon 088.png 	Sleima 	Grimer 	Tadmorv 	ベトベター 	질퍽이 	臭泥 / 臭泥 	poison
+89	Pokémonicon 089.png 	Sleimok 	Muk 	Grotadmorv 	ベトベトン 	질뻐기 	臭臭泥 / 臭臭泥 	poison
+90	Pokémonicon 090.png 	Muschas 	Shellder 	Kokiyas 	シェルダー 	셀러 	大舌貝 / 大舌贝 	water
+91	Pokémonicon 091.png 	Austos 	Cloyster 	Crustabri 	パルシェン 	파르셀 	刺甲貝 / 刺甲贝 	water ice
+92	Pokémonicon 092.png 	Nebulak 	Gastly 	Fantominus 	ゴース 	고오스 	鬼斯 / 鬼斯 	ghost poison
+93	Pokémonicon 093.png 	Alpollo 	Haunter 	Spectrum 	ゴースト 	고우스트 	鬼斯通 / 鬼斯通 	ghost poison
+94	Pokémonicon 094.png 	Gengar 	Gengar 	Ectoplasma 	ゲンガー 	팬텀 	耿鬼 / 耿鬼 	ghost poison
+95	Pokémonicon 095.png 	Onix 	Onix 	Onix 	イワーク 	롱스톤 	大岩蛇 / 大岩蛇 	rock ground
+96	Pokémonicon 096.png 	Traumato 	Drowzee 	Soporifik 	スリープ 	슬리프 	催眠貘 / 催眠貘 	psychic
+97	Pokémonicon 097.png 	Hypno 	Hypno 	Hypnomade 	スリーパー 	슬리퍼 	引夢貘人 / 引梦貘人 	psychic
+98	Pokémonicon 098.png 	Krabby 	Krabby 	Krabby 	クラブ 	크랩 	大鉗蟹 / 大钳蟹 	water
+99	Pokémonicon 099.png 	Kingler 	Kingler 	Krabboss 	キングラー 	킹크랩 	巨鉗蟹 / 巨钳蟹 	water
+100	Pokémonicon 100.png 	Voltobal 	Voltorb 	Voltorbe 	ビリリダマ 	찌리리공 	霹靂電球 / 霹雳电球 	electric
+101	Pokémonicon 101.png 	Lektrobal 	Electrode 	Electrode 	マルマイン 	붐볼 	頑皮雷彈 / 顽皮雷弹 	electric
+102	Pokémonicon 102.png 	Owei 	Exeggcute 	Noeunoeuf 	タマタマ 	아라리 	蛋蛋 / 蛋蛋 	plant psychic
+103	Pokémonicon 103.png 	Kokowei 	Exeggutor 	Noadkoko 	ナッシー 	나시 	椰蛋樹 / 椰蛋树 	plant psychic
+104	Pokémonicon 104.png 	Tragosso 	Cubone 	Osselait 	カラカラ 	탕구리 	卡拉卡拉 / 卡拉卡拉 	ground
+105	Pokémonicon 105.png 	Knogga 	Marowak 	Ossatueur 	ガラガラ 	텅구리 	嘎啦嘎啦 / 嘎啦嘎啦 	ground
+106	Pokémonicon 106.png 	Kicklee 	Hitmonlee 	Kicklee 	サワムラー 	시라소몬 	飛腿郎 / 飞腿郎 	fighting
+107	Pokémonicon 107.png 	Nockchan 	Hitmonchan 	Tygnon 	エビワラー 	홍수몬 	快拳郎 / 快拳郎 	fighting
+108	Pokémonicon 108.png 	Schlurp 	Lickitung 	Excelangue 	ベロリンガ 	내루미 	大舌頭 / 大舌头 	normal
+109	Pokémonicon 109.png 	Smogon 	Koffing 	Smogo 	ドガース 	또가스 	瓦斯彈 / 瓦斯弹 	poison
+110	Pokémonicon 110.png 	Smogmog 	Weezing 	Smogogo 	マタドガス 	또도가스 	雙彈瓦斯 / 双弹瓦斯 	poison
+111	Pokémonicon 111.png 	Rihorn 	Rhyhorn 	Rhinocorne 	サイホーン 	뿔카노 	獨角犀牛 / 独角犀牛 	ground rock
+112	Pokémonicon 112.png 	Rizeros 	Rhydon 	Rhinoferos 	サイドン 	코뿌리 	鑽角犀獸 / 钻角犀兽 	ground rock
+113	Pokémonicon 113.png 	Chaneira 	Chansey 	Leveinard 	ラッキー 	럭키 	吉利蛋 / 吉利蛋 	normal
+114	Pokémonicon 114.png 	Tangela 	Tangela 	Saquedeneu 	モンジャラ 	덩쿠리 	蔓藤怪 / 蔓藤怪 	plant
+115	Pokémonicon 115.png 	Kangama 	Kangaskhan 	Kangourex 	ガルーラ 	캥카 	袋獸 / 袋兽 	normal
+116	Pokémonicon 116.png 	Seeper 	Horsea 	Hypotrempe 	タッツー 	쏘드라 	墨海馬 / 墨海马 	water
+117	Pokémonicon 117.png 	Seemon 	Seadra 	Hypocean 	シードラ 	시드라 	海刺龍 / 海刺龙 	water
+118	Pokémonicon 118.png 	Goldini 	Goldeen 	Poissirene 	トサキント 	콘치 	角金魚 / 角金鱼 	water
+119	Pokémonicon 119.png 	Golking 	Seaking 	Poissoroy 	アズマオウ 	왕콘치 	金魚王 / 金鱼王 	water
+120	Pokémonicon 120.png 	Sterndu 	Staryu 	Stari 	ヒトデマン 	별가사리 	海星星 / 海星星 	water
+121	Pokémonicon 121.png 	Starmie 	Starmie 	Staross 	スターミー 	아쿠스타 	寶石海星 / 宝石海星 	water psychic
+122	Pokémonicon 122.png 	Pantimos 	Mr. Mime 	M.mime 	バリヤード 	마임맨 	魔牆人偶 / 魔墙人偶 	psychic fairy
+123	Pokémonicon 123.png 	Sichlor 	Scyther 	Insecateur 	ストライク 	스라크 	飛天螳螂 / 飞天螳螂 	bug flying
+124	Pokémonicon 124.png 	Rossana 	Jynx 	Lippoutou 	ルージュラ 	루주라 	迷唇姐 / 迷唇姐 	ice psychic
+125	Pokémonicon 125.png 	Elektek 	Electabuzz 	Electek 	エレブー 	에레브 	電擊獸 / 电击兽 	electric
+126	Pokémonicon 126.png 	Magmar 	Magmar 	Magmar 	ブーバー 	마그마 	鴨嘴火獸 / 鸭嘴火兽 	fire
+127	Pokémonicon 127.png 	Pinsir 	Pinsir 	Scarabrute 	カイロス 	쁘사이저 	凱羅斯 / 凯罗斯 	bug
+128	Pokémonicon 128.png 	Tauros 	Tauros 	Tauros 	ケンタロス 	켄타로스 	肯泰羅 / 肯泰罗 	normal
+129	Pokémonicon 129.png 	Karpador 	Magikarp 	Magicarp 	コイキング 	잉어킹 	鯉魚王 / 鲤鱼王 	water
+130	Pokémonicon 130.png 	Garados 	Gyarados 	Leviator 	ギャラドス 	갸라도스 	暴鯉龍 / 暴鲤龙 	water flying
+131	Pokémonicon 131.png 	Lapras 	Lapras 	Lokhlass 	ラプラス 	라프라스 	拉普拉斯 / 拉普拉斯 	water ice
+132	Pokémonicon 132.png 	Ditto 	Ditto 	Metamorphe 	メタモン 	메타몽 	百變怪 / 百变怪 	normal
+133	Pokémonicon 133.png 	Evoli 	Eevee 	Evoli 	イーブイ 	이브이 	伊布 / 伊布 	normal
+134	Pokémonicon 134.png 	Aquana 	Vaporeon 	Aquali 	シャワーズ 	샤미드 	水伊布 / 水伊布 	water
+135	Pokémonicon 135.png 	Blitza 	Jolteon 	Voltali 	サンダース 	쥬피썬더 	雷伊布 / 雷伊布 	electric
+136	Pokémonicon 136.png 	Flamara 	Flareon 	Pyroli 	ブースター 	부스터 	火伊布 / 火伊布 	fire
+137	Pokémonicon 137.png 	Porygon 	Porygon 	Porygon 	ポリゴン 	폴리곤 	多邊獸 / 多边兽 	normal
+138	Pokémonicon 138.png 	Amonitas 	Omanyte 	Amonita 	オムナイト 	암나이트 	菊石獸 / 菊石兽 	rock water
+139	Pokémonicon 139.png 	Amoroso 	Omastar 	Amonistar 	オムスター 	암스타 	多刺菊石獸 / 多刺菊石兽 	rock water
+140	Pokémonicon 140.png 	Kabuto 	Kabuto 	Kabuto 	カブト 	투구 	化石盔 / 化石盔 	rock water
+141	Pokémonicon 141.png 	Kabutops 	Kabutops 	Kabutops 	カブトプス 	투구푸스 	鐮刀盔 / 镰刀盔 	rock water
+142	Pokémonicon 142.png 	Aerodactyl 	Aerodactyl 	Ptera 	プテラ 	프테라 	化石翼龍 / 化石翼龙 	rock flying
+143	Pokémonicon 143.png 	Relaxo 	Snorlax 	Ronflex 	カビゴン 	잠만보 	卡比獸 / 卡比兽 	normal
+144	Pokémonicon 144.png 	Arktos 	Articuno 	Artikodin 	フリーザー 	프리져 	急凍鳥 / 急冻鸟 	ice flying
+145	Pokémonicon 145.png 	Zapdos 	Zapdos 	Electhor 	サンダー 	썬더 	閃電鳥 / 闪电鸟 	electric flying
+146	Pokémonicon 146.png 	Lavados 	Moltres 	Sulfura 	ファイヤー 	파이어 	火焰鳥 / 火焰鸟 	fire flying
+147	Pokémonicon 147.png 	Dratini 	Dratini 	Minidraco 	ミニリュウ 	미뇽 	迷你龍 / 迷你龙 	dragon
+148	Pokémonicon 148.png 	Dragonir 	Dragonair 	Draco 	ハクリュー 	신뇽 	哈克龍 / 哈克龙 	dragon
+149	Pokémonicon 149.png 	Dragoran 	Dragonite 	Dracolosse 	カイリュー 	망나뇽 	快龍 / 快龙 	dragon flying
+150	Pokémonicon 150.png 	Mewtu 	Mewtwo 	Mewtwo 	ミュウツー 	뮤츠 	超夢 / 超梦 	psychic
+151	Pokémonicon 151.png 	Mew 	Mew 	Mew 	ミュウ 	뮤 	夢幻 / 梦幻 	psychic

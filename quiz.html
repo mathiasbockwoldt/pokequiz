@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Pokémon-Quiz</title>
+<style type="text/css">
+body {
+	font-family: sans-serif;
+}
+
+#image {
+	width: 200px;
+	height: 200px;
+	background-size: Auto 100%;
+}
+
+#quizbox {
+	float: left;
+}
+
+#table {
+	font-size: 9pt;
+}
+
+#hidden {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+.table {
+	width: 7em;
+}
+</style>
+</head>
+<body>
+<div id="quizbox">
+<div id="image"></div>
+<form id="entryform">
+<input type="text" id="quizentry" /><br>
+<output id="output"></output>
+<button id="giveup" type="button">I give up</button>
+</form>
+</div>
+
+<div id="hidden"></div>
+
+
+<div id="table">
+<table>
+<tr>
+<td>001</td><td class="table" id="pkmn1"></td>
+<td>032</td><td class="table" id="pkmn32"></td>
+<td>063</td><td class="table" id="pkmn63"></td>
+<td>094</td><td class="table" id="pkmn94"></td>
+<td>125</td><td class="table" id="pkmn125"></td>
+</tr>
+<tr>
+<td>002</td><td class="table" id="pkmn2"></td>
+<td>033</td><td class="table" id="pkmn33"></td>
+<td>064</td><td class="table" id="pkmn64"></td>
+<td>095</td><td class="table" id="pkmn95"></td>
+<td>126</td><td class="table" id="pkmn126"></td>
+</tr>
+<tr>
+<td>003</td><td class="table" id="pkmn3"></td>
+<td>034</td><td class="table" id="pkmn34"></td>
+<td>065</td><td class="table" id="pkmn65"></td>
+<td>096</td><td class="table" id="pkmn96"></td>
+<td>127</td><td class="table" id="pkmn127"></td>
+</tr>
+<tr>
+<td>004</td><td class="table" id="pkmn4"></td>
+<td>035</td><td class="table" id="pkmn35"></td>
+<td>066</td><td class="table" id="pkmn66"></td>
+<td>097</td><td class="table" id="pkmn97"></td>
+<td>128</td><td class="table" id="pkmn128"></td>
+</tr>
+<tr>
+<td>005</td><td class="table" id="pkmn5"></td>
+<td>036</td><td class="table" id="pkmn36"></td>
+<td>067</td><td class="table" id="pkmn67"></td>
+<td>098</td><td class="table" id="pkmn98"></td>
+<td>129</td><td class="table" id="pkmn129"></td>
+</tr>
+<tr>
+<td>006</td><td class="table" id="pkmn6"></td>
+<td>037</td><td class="table" id="pkmn37"></td>
+<td>068</td><td class="table" id="pkmn68"></td>
+<td>099</td><td class="table" id="pkmn99"></td>
+<td>130</td><td class="table" id="pkmn130"></td>
+</tr>
+<tr>
+<td>007</td><td class="table" id="pkmn7"></td>
+<td>038</td><td class="table" id="pkmn38"></td>
+<td>069</td><td class="table" id="pkmn69"></td>
+<td>100</td><td class="table" id="pkmn100"></td>
+<td>131</td><td class="table" id="pkmn131"></td>
+</tr>
+<tr>
+<td>008</td><td class="table" id="pkmn8"></td>
+<td>039</td><td class="table" id="pkmn39"></td>
+<td>070</td><td class="table" id="pkmn70"></td>
+<td>101</td><td class="table" id="pkmn101"></td>
+<td>132</td><td class="table" id="pkmn132"></td>
+</tr>
+<tr>
+<td>009</td><td class="table" id="pkmn9"></td>
+<td>040</td><td class="table" id="pkmn40"></td>
+<td>071</td><td class="table" id="pkmn71"></td>
+<td>102</td><td class="table" id="pkmn102"></td>
+<td>133</td><td class="table" id="pkmn133"></td>
+</tr>
+<tr>
+<td>010</td><td class="table" id="pkmn10"></td>
+<td>041</td><td class="table" id="pkmn41"></td>
+<td>072</td><td class="table" id="pkmn72"></td>
+<td>103</td><td class="table" id="pkmn103"></td>
+<td>134</td><td class="table" id="pkmn134"></td>
+</tr>
+<tr>
+<td>011</td><td class="table" id="pkmn11"></td>
+<td>042</td><td class="table" id="pkmn42"></td>
+<td>073</td><td class="table" id="pkmn73"></td>
+<td>104</td><td class="table" id="pkmn104"></td>
+<td>135</td><td class="table" id="pkmn135"></td>
+</tr>
+<tr>
+<td>012</td><td class="table" id="pkmn12"></td>
+<td>043</td><td class="table" id="pkmn43"></td>
+<td>074</td><td class="table" id="pkmn74"></td>
+<td>105</td><td class="table" id="pkmn105"></td>
+<td>136</td><td class="table" id="pkmn136"></td>
+</tr>
+<tr>
+<td>013</td><td class="table" id="pkmn13"></td>
+<td>044</td><td class="table" id="pkmn44"></td>
+<td>075</td><td class="table" id="pkmn75"></td>
+<td>106</td><td class="table" id="pkmn106"></td>
+<td>137</td><td class="table" id="pkmn137"></td>
+</tr>
+<tr>
+<td>014</td><td class="table" id="pkmn14"></td>
+<td>045</td><td class="table" id="pkmn45"></td>
+<td>076</td><td class="table" id="pkmn76"></td>
+<td>107</td><td class="table" id="pkmn107"></td>
+<td>138</td><td class="table" id="pkmn138"></td>
+</tr>
+<tr>
+<td>015</td><td class="table" id="pkmn15"></td>
+<td>046</td><td class="table" id="pkmn46"></td>
+<td>077</td><td class="table" id="pkmn77"></td>
+<td>108</td><td class="table" id="pkmn108"></td>
+<td>139</td><td class="table" id="pkmn139"></td>
+</tr>
+<tr>
+<td>016</td><td class="table" id="pkmn16"></td>
+<td>047</td><td class="table" id="pkmn47"></td>
+<td>078</td><td class="table" id="pkmn78"></td>
+<td>109</td><td class="table" id="pkmn109"></td>
+<td>140</td><td class="table" id="pkmn140"></td>
+</tr>
+<tr>
+<td>017</td><td class="table" id="pkmn17"></td>
+<td>048</td><td class="table" id="pkmn48"></td>
+<td>079</td><td class="table" id="pkmn79"></td>
+<td>110</td><td class="table" id="pkmn110"></td>
+<td>141</td><td class="table" id="pkmn141"></td>
+</tr>
+<tr>
+<td>018</td><td class="table" id="pkmn18"></td>
+<td>049</td><td class="table" id="pkmn49"></td>
+<td>080</td><td class="table" id="pkmn80"></td>
+<td>111</td><td class="table" id="pkmn111"></td>
+<td>142</td><td class="table" id="pkmn142"></td>
+</tr>
+<tr>
+<td>019</td><td class="table" id="pkmn19"></td>
+<td>050</td><td class="table" id="pkmn50"></td>
+<td>081</td><td class="table" id="pkmn81"></td>
+<td>112</td><td class="table" id="pkmn112"></td>
+<td>143</td><td class="table" id="pkmn143"></td>
+</tr>
+<tr>
+<td>020</td><td class="table" id="pkmn20"></td>
+<td>051</td><td class="table" id="pkmn51"></td>
+<td>082</td><td class="table" id="pkmn82"></td>
+<td>113</td><td class="table" id="pkmn113"></td>
+<td>144</td><td class="table" id="pkmn144"></td>
+</tr>
+<tr>
+<td>021</td><td class="table" id="pkmn21"></td>
+<td>052</td><td class="table" id="pkmn52"></td>
+<td>083</td><td class="table" id="pkmn83"></td>
+<td>114</td><td class="table" id="pkmn114"></td>
+<td>145</td><td class="table" id="pkmn145"></td>
+</tr>
+<tr>
+<td>022</td><td class="table" id="pkmn22"></td>
+<td>053</td><td class="table" id="pkmn53"></td>
+<td>084</td><td class="table" id="pkmn84"></td>
+<td>115</td><td class="table" id="pkmn115"></td>
+<td>146</td><td class="table" id="pkmn146"></td>
+</tr>
+<tr>
+<td>023</td><td class="table" id="pkmn23"></td>
+<td>054</td><td class="table" id="pkmn54"></td>
+<td>085</td><td class="table" id="pkmn85"></td>
+<td>116</td><td class="table" id="pkmn116"></td>
+<td>147</td><td class="table" id="pkmn147"></td>
+</tr>
+<tr>
+<td>024</td><td class="table" id="pkmn24"></td>
+<td>055</td><td class="table" id="pkmn55"></td>
+<td>086</td><td class="table" id="pkmn86"></td>
+<td>117</td><td class="table" id="pkmn117"></td>
+<td>148</td><td class="table" id="pkmn148"></td>
+</tr>
+<tr>
+<td>025</td><td class="table" id="pkmn25"></td>
+<td>056</td><td class="table" id="pkmn56"></td>
+<td>087</td><td class="table" id="pkmn87"></td>
+<td>118</td><td class="table" id="pkmn118"></td>
+<td>149</td><td class="table" id="pkmn149"></td>
+</tr>
+<tr>
+<td>026</td><td class="table" id="pkmn26"></td>
+<td>057</td><td class="table" id="pkmn57"></td>
+<td>088</td><td class="table" id="pkmn88"></td>
+<td>119</td><td class="table" id="pkmn119"></td>
+<td>150</td><td class="table" id="pkmn150"></td>
+</tr>
+<tr>
+<td>027</td><td class="table" id="pkmn27"></td>
+<td>058</td><td class="table" id="pkmn58"></td>
+<td>089</td><td class="table" id="pkmn89"></td>
+<td>120</td><td class="table" id="pkmn120"></td>
+<td>151</td><td class="table" id="pkmn151"></td>
+</tr>
+<tr>
+<td>028</td><td class="table" id="pkmn28"></td>
+<td>059</td><td class="table" id="pkmn59"></td>
+<td>090</td><td class="table" id="pkmn90"></td>
+<td>121</td><td class="table" id="pkmn121"></td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>029</td><td class="table" id="pkmn29"></td>
+<td>060</td><td class="table" id="pkmn60"></td>
+<td>091</td><td class="table" id="pkmn91"></td>
+<td>122</td><td class="table" id="pkmn122"></td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>030</td><td class="table" id="pkmn30"></td>
+<td>061</td><td class="table" id="pkmn61"></td>
+<td>092</td><td class="table" id="pkmn92"></td>
+<td>123</td><td class="table" id="pkmn123"></td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>031</td><td class="table" id="pkmn31"></td>
+<td>062</td><td class="table" id="pkmn62"></td>
+<td>093</td><td class="table" id="pkmn93"></td>
+<td>124</td><td class="table" id="pkmn124"></td>
+<td></td><td></td>
+</tr>
+</table>
+</div>
+
+<script type="text/javascript">
+var pokemon_de = [
+[1, "Bisasam", /Bisasam/i, "Bisasam.png"],
+[2, "Bisaknosp", /Bisaknosp/i, "Bisaknosp.png"],
+[3, "Bisaflor", /Bisaflor/i, "Bisaflor.png"],
+[4, "Glumanda", /Glumanda/i, "Glumanda.png"],
+[5, "Glutexo", /Glutexo/i, "Glutexo.png"],
+[6, "Glurak", /Glurak/i, "Glurak.png"],
+[7, "Schiggy", /Schiggy/i, "Schiggy.png"],
+[8, "Schillok", /Schillok/i, "Schillok.png"],
+[9, "Turtok", /Turtok/i, "Turtok.png"],
+[10, "Raupy", /Raupy/i, "Raupy.png"],
+[11, "Safcon", /Safcon/i, "Safcon.png"],
+[12, "Smettbo", /Smettbo/i, "Smettbo.png"],
+[13, "Hornliu", /Hornliu/i, "Hornliu.png"],
+[14, "Kokuna", /Kokuna/i, "Kokuna.png"],
+[15, "Bibor", /Bibor/i, "Bibor.png"],
+[16, "Taubsi", /Taubsi/i, "Taubsi.png"],
+[17, "Tauboga", /Tauboga/i, "Tauboga.png"],
+[18, "Tauboss", /Tauboss/i, "Tauboss.png"],
+[19, "Rattfratz", /Rattfratz/i, "Rattfratz.png"],
+[20, "Rattikarl", /Rattikarl/i, "Rattikarl.png"],
+[21, "Habitak", /Habitak/i, "Habitak.png"],
+[22, "Ibitak", /Ibitak/i, "Ibitak.png"],
+[23, "Rettan", /Rettan/i, "Rettan.png"],
+[24, "Arbok", /Arbok/i, "Arbok.png"],
+[25, "Pikachu", /Pikachu/i, "Pikachu.png"],
+[26, "Raichu", /Raichu/i, "Raichu.png"],
+[27, "Sandan", /Sandan/i, "Sandan.png"],
+[28, "Sandamer", /Sandamer/i, "Sandamer.png"],
+[29, "Nidoran w", /Nidoran w/i, "Nidoranw.png"],
+[30, "Nidorina", /Nidorina/i, "Nidorina.png"],
+[31, "Nidoqueen", /Nidoqueen/i, "Nidoqueen.png"],
+[32, "Nidoran m", /Nidoran m/i, "Nidoranm.png"],
+[33, "Nidorino", /Nidorino/i, "Nidorino.png"],
+[34, "Nidoking", /Nidoking/i, "Nidoking.png"],
+[35, "Piepi", /Piepi/i, "Piepi.png"],
+[36, "Pixi", /Pixi/i, "Pixi.png"],
+[37, "Vulpix", /Vulpix/i, "Vulpix.png"],
+[38, "Vulnona", /Vulnona/i, "Vulnona.png"],
+[39, "Pummeluff", /Pummeluff/i, "Pummeluff.png"],
+[40, "Knuddeluff", /Knuddeluff/i, "Knuddeluff.png"],
+[41, "Zubat", /Zubat/i, "Zubat.png"],
+[42, "Golbat", /Golbat/i, "Golbat.png"],
+[43, "Myrapla", /Myrapla/i, "Myrapla.png"],
+[44, "Duflor", /Duflor/i, "Duflor.png"],
+[45, "Giflor", /Giflor/i, "Giflor.png"],
+[46, "Paras", /Paras/i, "Paras.png"],
+[47, "Parasek", /Parasek/i, "Parasek.png"],
+[48, "Bluzuk", /Bluzuk/i, "Bluzuk.png"],
+[49, "Omot", /Omot/i, "Omot.png"],
+[50, "Digda", /Digda/i, "Digda.png"],
+[51, "Digdri", /Digdri/i, "Digdri.png"],
+[52, "Mauzi", /Mauzi/i, "Mauzi.png"],
+[53, "Snobilikat", /Snobilikat/i, "Snobilikat.png"],
+[54, "Enton", /Enton/i, "Enton.png"],
+[55, "Entoron", /Entoron/i, "Entoron.png"],
+[56, "Menki", /Menki/i, "Menki.png"],
+[57, "Rasaff", /Rasaff/i, "Rasaff.png"],
+[58, "Fukano", /Fukano/i, "Fukano.png"],
+[59, "Arkani", /Arkani/i, "Arkani.png"],
+[60, "Quapsel", /Quapsel/i, "Quapsel.png"],
+[61, "Quaputzi", /Quaputzi/i, "Quaputzi.png"],
+[62, "Quappo", /Quappo/i, "Quappo.png"],
+[63, "Abra", /Abra/i, "Abra.png"],
+[64, "Kadabra", /Kadabra/i, "Kadabra.png"],
+[65, "Simsala", /Simsala/i, "Simsala.png"],
+[66, "Machollo", /Machollo/i, "Machollo.png"],
+[67, "Maschock", /Maschock/i, "Maschock.png"],
+[68, "Machomei", /Machomei/i, "Machomei.png"],
+[69, "Knofensa", /Knofensa/i, "Knofensa.png"],
+[70, "Ultrigaria", /Ultrigaria/i, "Ultrigaria.png"],
+[71, "Sarzenia", /Sarzenia/i, "Sarzenia.png"],
+[72, "Tentacha", /Tentacha/i, "Tentacha.png"],
+[73, "Tentoxa", /Tentoxa/i, "Tentoxa.png"],
+[74, "Kleinstein", /Kleinstein/i, "Kleinstein.png"],
+[75, "Georok", /Georok/i, "Georok.png"],
+[76, "Geowaz", /Geowaz/i, "Geowaz.png"],
+[77, "Ponita", /Ponita/i, "Ponita.png"],
+[78, "Gallopa", /Gallopa/i, "Gallopa.png"],
+[79, "Flegmon", /Flegmon/i, "Flegmon.png"],
+[80, "Lahmus", /Lahmus/i, "Lahmus.png"],
+[81, "Magnetilo", /Magnetilo/i, "Magnetilo.png"],
+[82, "Magneton", /Magneton/i, "Magneton.png"],
+[83, "Porenta", /Porenta/i, "Porenta.png"],
+[84, "Dodu", /Dodu/i, "Dodu.png"],
+[85, "Dodri", /Dodri/i, "Dodri.png"],
+[86, "Jurob", /Jurob/i, "Jurob.png"],
+[87, "Jugong", /Jugong/i, "Jugong.png"],
+[88, "Sleima", /Sleima/i, "Sleima.png"],
+[89, "Sleimok", /Sleimok/i, "Sleimok.png"],
+[90, "Muschas", /Muschas/i, "Muschas.png"],
+[91, "Austos", /Austos/i, "Austos.png"],
+[92, "Nebulak", /Nebulak/i, "Nebulak.png"],
+[93, "Alpollo", /Alpollo/i, "Alpollo.png"],
+[94, "Gengar", /Gengar/i, "Gengar.png"],
+[95, "Onix", /Onix/i, "Onix.png"],
+[96, "Traumato", /Traumato/i, "Traumato.png"],
+[97, "Hypno", /Hypno/i, "Hypno.png"],
+[98, "Krabby", /Krabby/i, "Krabby.png"],
+[99, "Kingler", /Kingler/i, "Kingler.png"],
+[100, "Voltobal", /Voltobal/i, "Voltobal.png"],
+[101, "Lektrobal", /Lektrobal/i, "Lektrobal.png"],
+[102, "Owei", /Owei/i, "Owei.png"],
+[103, "Kokowei", /Kokowei/i, "Kokowei.png"],
+[104, "Tragosso", /Tragosso/i, "Tragosso.png"],
+[105, "Knogga", /Knogga/i, "Knogga.png"],
+[106, "Kicklee", /Kicklee/i, "Kicklee.png"],
+[107, "Nockchan", /Nockchan/i, "Nockchan.png"],
+[108, "Schlurp", /Schlurp/i, "Schlurp.png"],
+[109, "Smogon", /Smogon/i, "Smogon.png"],
+[110, "Smogmog", /Smogmog/i, "Smogmog.png"],
+[111, "Rihorn", /Rihorn/i, "Rihorn.png"],
+[112, "Rizeros", /Rizeros/i, "Rizeros.png"],
+[113, "Chaneira", /Chaneira/i, "Chaneira.png"],
+[114, "Tangela", /Tangela/i, "Tangela.png"],
+[115, "Kangama", /Kangama/i, "Kangama.png"],
+[116, "Seeper", /Seeper/i, "Seeper.png"],
+[117, "Seemon", /Seemon/i, "Seemon.png"],
+[118, "Goldini", /Goldini/i, "Goldini.png"],
+[119, "Golking", /Golking/i, "Golking.png"],
+[120, "Sterndu", /Sterndu/i, "Sterndu.png"],
+[121, "Starmie", /Starmie/i, "Starmie.png"],
+[122, "Pantimos", /Pantimos/i, "Pantimos.png"],
+[123, "Sichlor", /Sichlor/i, "Sichlor.png"],
+[124, "Rossana", /Rossana/i, "Rossana.png"],
+[125, "Elektek", /Elektek/i, "Elektek.png"],
+[126, "Magmar", /Magmar/i, "Magmar.png"],
+[127, "Pinsir", /Pinsir/i, "Pinsir.png"],
+[128, "Tauros", /Tauros/i, "Tauros.png"],
+[129, "Karpador", /Karpador/i, "Karpador.png"],
+[130, "Garados", /Garados/i, "Garados.png"],
+[131, "Lapras", /Lapras/i, "Lapras.png"],
+[132, "Ditto", /Ditto/i, "Ditto.png"],
+[133, "Evoli", /Evoli/i, "Evoli.png"],
+[134, "Aquana", /Aquana/i, "Aquana.png"],
+[135, "Blitza", /Blitza/i, "Blitza.png"],
+[136, "Flamara", /Flamara/i, "Flamara.png"],
+[137, "Porygon", /Porygon/i, "Porygon.png"],
+[138, "Amonitas", /Amonitas/i, "Amonitas.png"],
+[139, "Amoroso", /Amoroso/i, "Amoroso.png"],
+[140, "Kabuto", /Kabuto/i, "Kabuto.png"],
+[141, "Kabutops", /Kabutops/i, "Kabutops.png"],
+[142, "Aerodactyl", /Aerodactyl/i, "Aerodactyl.png"],
+[143, "Relaxo", /Relaxo/i, "Relaxo.png"],
+[144, "Arktos", /Arktos/i, "Arktos.png"],
+[145, "Zapdos", /Zapdos/i, "Zapdos.png"],
+[146, "Lavados", /Lavados/i, "Lavados.png"],
+[147, "Dratini", /Dratini/i, "Dratini.png"],
+[148, "Dragonir", /Dragonir/i, "Dragonir.png"],
+[149, "Dragoran", /Dragoran/i, "Dragoran.png"],
+[150, "Mewtu", /Mewtu/i, "Mewtu.png"],
+[151, "Mew", /Mew/i, "Mew.png"]
+];
+
+var pokemon_en = [
+[1, "Bulbasaur", /Bulbasaur/i, "Bisasam.png"],
+[2, "Ivysaur", /Ivysaur/i, "Bisaknosp.png"],
+[3, "Venusaur", /Venusaur/i, "Bisaflor.png"],
+[4, "Charmander", /Charmander/i, "Glumanda.png"],
+[5, "Charmeleon", /Charmeleon/i, "Glutexo.png"],
+[6, "Charizard", /Charizard/i, "Glurak.png"],
+[7, "Squirtle", /Squirtle/i, "Schiggy.png"],
+[8, "Wartortle", /Wartortle/i, "Schillok.png"],
+[9, "Blastoise", /Blastoise/i, "Turtok.png"],
+[10, "Caterpie", /Caterpie/i, "Raupy.png"],
+[11, "Metapod", /Metapod/i, "Safcon.png"],
+[12, "Butterfree", /Butterfree/i, "Smettbo.png"],
+[13, "Weedle", /Weedle/i, "Hornliu.png"],
+[14, "Kakuna", /Kakuna/i, "Kokuna.png"],
+[15, "Beedrill", /Beedrill/i, "Bibor.png"],
+[16, "Pidgey", /Pidgey/i, "Taubsi.png"],
+[17, "Pidgeotto", /Pidgeotto/i, "Tauboga.png"],
+[18, "Pidgeot", /Pidgeot/i, "Tauboss.png"],
+[19, "Rattata", /Rattata/i, "Rattfratz.png"],
+[20, "Raticate", /Raticate/i, "Rattikarl.png"],
+[21, "Spearow", /Spearow/i, "Habitak.png"],
+[22, "Fearow", /Fearow/i, "Ibitak.png"],
+[23, "Ekans", /Ekans/i, "Rettan.png"],
+[24, "Arbok", /Arbok/i, "Arbok.png"],
+[25, "Pikachu", /Pikachu/i, "Pikachu.png"],
+[26, "Raichu", /Raichu/i, "Raichu.png"],
+[27, "Sandshrew", /Sandshrew/i, "Sandan.png"],
+[28, "Sandslash", /Sandslash/i, "Sandamer.png"],
+[29, "Nidoran f", /Nidoran f/i, "Nidoranw.png"],
+[30, "Nidorina", /Nidorina/i, "Nidorina.png"],
+[31, "Nidoqueen", /Nidoqueen/i, "Nidoqueen.png"],
+[32, "Nidoran m", /Nidoran m/i, "Nidoranm.png"],
+[33, "Nidorino", /Nidorino/i, "Nidorino.png"],
+[34, "Nidoking", /Nidoking/i, "Nidoking.png"],
+[35, "Clefairy", /Clefairy/i, "Piepi.png"],
+[36, "Clefable", /Clefable/i, "Pixi.png"],
+[37, "Vulpix", /Vulpix/i, "Vulpix.png"],
+[38, "Ninetales", /Ninetales/i, "Vulnona.png"],
+[39, "Jigglypuff", /Jigglypuff/i, "Pummeluff.png"],
+[40, "Wigglytuff", /Wigglytuff/i, "Knuddeluff.png"],
+[41, "Zubat", /Zubat/i, "Zubat.png"],
+[42, "Golbat", /Golbat/i, "Golbat.png"],
+[43, "Oddish", /Oddish/i, "Myrapla.png"],
+[44, "Gloom", /Gloom/i, "Duflor.png"],
+[45, "Vileplume", /Vileplume/i, "Giflor.png"],
+[46, "Paras", /Paras/i, "Paras.png"],
+[47, "Parasect", /Parasect/i, "Parasek.png"],
+[48, "Venonat", /Venonat/i, "Bluzuk.png"],
+[49, "Venomoth", /Venomoth/i, "Omot.png"],
+[50, "Diglett", /Diglett/i, "Digda.png"],
+[51, "Dugtrio", /Dugtrio/i, "Digdri.png"],
+[52, "Meowth", /Meowth/i, "Mauzi.png"],
+[53, "Persian", /Persian/i, "Snobilikat.png"],
+[54, "Psyduck", /Psyduck/i, "Enton.png"],
+[55, "Golduck", /Golduck/i, "Entoron.png"],
+[56, "Mankey", /Mankey/i, "Menki.png"],
+[57, "Primeape", /Primeape/i, "Rasaff.png"],
+[58, "Growlithe", /Growlithe/i, "Fukano.png"],
+[59, "Arcanine", /Arcanine/i, "Arkani.png"],
+[60, "Poliwag", /Poliwag/i, "Quapsel.png"],
+[61, "Poliwhirl", /Poliwhirl/i, "Quaputzi.png"],
+[62, "Poliwrath", /Poliwrath/i, "Quappo.png"],
+[63, "Abra", /Abra/i, "Abra.png"],
+[64, "Kadabra", /Kadabra/i, "Kadabra.png"],
+[65, "Alakazam", /Alakazam/i, "Simsala.png"],
+[66, "Machop", /Machop/i, "Machollo.png"],
+[67, "Machoke", /Machoke/i, "Maschock.png"],
+[68, "Machamp", /Machamp/i, "Machomei.png"],
+[69, "Bellsprout", /Bellsprout/i, "Knofensa.png"],
+[70, "Weepinbell", /Weepinbell/i, "Ultrigaria.png"],
+[71, "Victreebel", /Victreebel/i, "Sarzenia.png"],
+[72, "Tentacool", /Tentacool/i, "Tentacha.png"],
+[73, "Tentacruel", /Tentacruel/i, "Tentoxa.png"],
+[74, "Geodude", /Geodude/i, "Kleinstein.png"],
+[75, "Graveler", /Graveler/i, "Georok.png"],
+[76, "Golem", /Golem/i, "Geowaz.png"],
+[77, "Ponyta", /Ponyta/i, "Ponita.png"],
+[78, "Rapidash", /Rapidash/i, "Gallopa.png"],
+[79, "Slowpoke", /Slowpoke/i, "Flegmon.png"],
+[80, "Slowbro", /Slowbro/i, "Lahmus.png"],
+[81, "Magnemite", /Magnemite/i, "Magnetilo.png"],
+[82, "Magneton", /Magneton/i, "Magneton.png"],
+[83, "Farfetchd", /Farfetchd/i, "Porenta.png"],
+[84, "Doduo", /Doduo/i, "Dodu.png"],
+[85, "Dodrio", /Dodrio/i, "Dodri.png"],
+[86, "Seel", /Seel/i, "Jurob.png"],
+[87, "Dewgong", /Dewgong/i, "Jugong.png"],
+[88, "Grimer", /Grimer/i, "Sleima.png"],
+[89, "Muk", /Muk/i, "Sleimok.png"],
+[90, "Shellder", /Shellder/i, "Muschas.png"],
+[91, "Cloyster", /Cloyster/i, "Austos.png"],
+[92, "Gastly", /Gastly/i, "Nebulak.png"],
+[93, "Haunter", /Haunter/i, "Alpollo.png"],
+[94, "Gengar", /Gengar/i, "Gengar.png"],
+[95, "Onix", /Onix/i, "Onix.png"],
+[96, "Drowzee", /Drowzee/i, "Traumato.png"],
+[97, "Hypno", /Hypno/i, "Hypno.png"],
+[98, "Krabby", /Krabby/i, "Krabby.png"],
+[99, "Kingler", /Kingler/i, "Kingler.png"],
+[100, "Voltorb", /Voltorb/i, "Voltobal.png"],
+[101, "Electrode", /Electrode/i, "Lektrobal.png"],
+[102, "Exeggcute", /Exeggcute/i, "Owei.png"],
+[103, "Exeggutor", /Exeggutor/i, "Kokowei.png"],
+[104, "Cubone", /Cubone/i, "Tragosso.png"],
+[105, "Marowak", /Marowak/i, "Knogga.png"],
+[106, "Hitmonlee", /Hitmonlee/i, "Kicklee.png"],
+[107, "Hitmonchan", /Hitmonchan/i, "Nockchan.png"],
+[108, "Lickitung", /Lickitung/i, "Schlurp.png"],
+[109, "Koffing", /Koffing/i, "Smogon.png"],
+[110, "Weezing", /Weezing/i, "Smogmog.png"],
+[111, "Rhyhorn", /Rhyhorn/i, "Rihorn.png"],
+[112, "Rhydon", /Rhydon/i, "Rizeros.png"],
+[113, "Chansey", /Chansey/i, "Chaneira.png"],
+[114, "Tangela", /Tangela/i, "Tangela.png"],
+[115, "Kangaskhan", /Kangaskhan/i, "Kangama.png"],
+[116, "Horsea", /Horsea/i, "Seeper.png"],
+[117, "Seadra", /Seadra/i, "Seemon.png"],
+[118, "Goldeen", /Goldeen/i, "Goldini.png"],
+[119, "Seaking", /Seaking/i, "Golking.png"],
+[120, "Staryu", /Staryu/i, "Sterndu.png"],
+[121, "Starmie", /Starmie/i, "Starmie.png"],
+[122, "Mr Mime", /Mr Mime/i, "Pantimos.png"],
+[123, "Scyther", /Scyther/i, "Sichlor.png"],
+[124, "Jynx", /Jynx/i, "Rossana.png"],
+[125, "Electabuzz", /Electabuzz/i, "Elektek.png"],
+[126, "Magmar", /Magmar/i, "Magmar.png"],
+[127, "Pinsir", /Pinsir/i, "Pinsir.png"],
+[128, "Tauros", /Tauros/i, "Tauros.png"],
+[129, "Magikarp", /Magikarp/i, "Karpador.png"],
+[130, "Gyarados", /Gyarados/i, "Garados.png"],
+[131, "Lapras", /Lapras/i, "Lapras.png"],
+[132, "Ditto", /Ditto/i, "Ditto.png"],
+[133, "Eevee", /Eevee/i, "Evoli.png"],
+[134, "Vaporeon", /Vaporeon/i, "Aquana.png"],
+[135, "Jolteon", /Jolteon/i, "Blitza.png"],
+[136, "Flareon", /Flareon/i, "Flamara.png"],
+[137, "Porygon", /Porygon/i, "Porygon.png"],
+[138, "Omanyte", /Omanyte/i, "Amonitas.png"],
+[139, "Omastar", /Omastar/i, "Amoroso.png"],
+[140, "Kabuto", /Kabuto/i, "Kabuto.png"],
+[141, "Kabutops", /Kabutops/i, "Kabutops.png"],
+[142, "Aerodactyl", /Aerodactyl/i, "Aerodactyl.png"],
+[143, "Snorlax", /Snorlax/i, "Relaxo.png"],
+[144, "Articuno", /Articuno/i, "Arktos.png"],
+[145, "Zapdos", /Zapdos/i, "Zapdos.png"],
+[146, "Moltres", /Moltres/i, "Lavados.png"],
+[147, "Dratini", /Dratini/i, "Dratini.png"],
+[148, "Dragonair", /Dragonair/i, "Dragonir.png"],
+[149, "Dragonite", /Dragonite/i, "Dragoran.png"],
+[150, "Mewtwo", /Mewtwo/i, "Mewtu.png"],
+[151, "Mew", /Mew/i, "Mew.png"]
+];
+
+var pokemon = pokemon_en; // Switch between German and English. Should be changable by the user
+
+var found = [];
+var todo = [];
+var todoStr = [];
+var current = 0;
+var currentStr = "";
+var total = pokemon.length.toString();
+var next_img = 0;
+var reg_ex_by_initial = {};
+var name_by_initial = {};
+
+
+function startquiz()
+{
+	for(var i = 0; i < pokemon.length; i++)
+	{
+		todo.push(i);
+		var name = pokemon[i][1].toLowerCase()
+		todoStr.push(name);
+		var initial = name[0];
+		if(!reg_ex_by_initial.hasOwnProperty(initial))
+		{
+			reg_ex_by_initial[initial] = [];
+			name_by_initial[initial] = [];
+		}
+		reg_ex_by_initial[initial].push(pokemon[i][2]);
+		name_by_initial[initial].push(i);
+	}
+	document.getElementById('output').innerHTML = found.length.toString() + '/' + total;
+	newimage();
+}
+
+function stopquiz(text)
+{
+	document.getElementById('quizentry').value = text;
+	document.getElementById('quizentry').disabled = 'disabled';
+	document.getElementById('giveup').disabled = 'disabled';
+}
+
+function preload(img)
+{
+
+}
+
+function newimage()
+{
+	if(todo.length === 0)
+	{
+		stopquiz('CONGRATULATIONS!');
+		return;
+	}
+	var nextNum = todo[Math.floor(Math.random() * todo.length)]
+	var next = pokemon[nextNum];
+	var img = "images/" + next[3].toLowerCase();
+	currentStr = next[1].toLowerCase();
+	current = nextNum;
+	console.log(pokemon[current][1]);
+
+	document.getElementById('image').style.backgroundImage = 'url('+img+')';
+	document.getElementById('image').innerHTML = (current+1).toString().padStart(3, '0');
+	document.getElementById('quizentry').value = '';
+	document.getElementById('quizentry').focus();
+}
+
+function writeanswer(idx, name, good)
+{
+	var x = document.getElementById('pkmn'+(idx))
+	x.innerHTML = name;
+	if(good)
+	{
+		x.style.color = "#00aa00";
+	}
+	else
+	{
+		x.style.color = "#aa0000";
+	}
+}
+
+function checkanswer()
+{
+
+	if(/\d/.test(s)) // If a number is entered
+	{
+		newimage();
+		return;
+	}
+
+	var s = document.getElementById('quizentry').value.toLowerCase();
+	var initial = s[0];
+
+	if(reg_ex_by_initial.hasOwnProperty(s[0]))
+	{
+		for(var i = 0; i < reg_ex_by_initial[s[0]].length; i++)
+		{
+			re = reg_ex_by_initial[initial][i];
+			if(re.test(s))
+			{
+				var pokeid = name_by_initial[initial][i];
+				name_by_initial[initial].splice(i, 1);
+				reg_ex_by_initial[initial].splice(i, 1);
+				var todo_idx = todo.indexOf(pokeid);
+				todo.splice(todo_idx, 1);
+				writeanswer(pokeid, pokemon[pokeid][1], true);
+				document.getElementById('quizentry').value = '';
+				document.getElementById('output').innerHTML = found.length.toString() + '/' + total;
+				if(pokeid === current)
+				{
+					newimage();
+				}
+				break;
+			}
+		}
+	}
+}
+
+function giveup()
+{
+	for(var i = 0; i < todo.length; i++)
+	{
+		writeanswer(todo[i]+1, pokemon[todo[i]][1], false);
+	}
+
+	stopquiz(found.length.toString() + '/' + total);
+}
+
+document.getElementById('quizentry').onkeyup = checkanswer;
+document.getElementById('giveup').onclick = giveup;
+window.onload = startquiz;
+</script>
+</body>
+</html>
